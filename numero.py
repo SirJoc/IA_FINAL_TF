@@ -20,6 +20,12 @@ class_names = [
     'Siete', 'Ocho', 'Nueve'
 ]
 
+class_letras = [
+    'a', 'b', 'c', 'd', 'e', 'f', 'g',
+    'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p',
+    'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+]
+
 num_train_examples = metadata.splits['train'].num_examples
 num_test_examples = metadata.splits['test'].num_examples
 
